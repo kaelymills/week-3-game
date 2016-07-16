@@ -1,0 +1,96 @@
+*{ 
+
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+
+box-sizing: border-box;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* Keep it simple - improvement would be to not display characters */
+ .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.current-word {
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.correct {
+    background-color: green;
+    transition: all 1s ease;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.error {
+    color: red;
+    opacity: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.warning {
+    color: orange;
+    opacity: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.win {
+    color: green;
+    opacity: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#letter {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#restart {
+	font-family: 'Josefin Sans', sans-serif;
+	border: 2px solid #999;
+    color: #999;
+}
+
+#guess {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	background-color: #ADD8E6;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+input {
+	border: 2px solid #999;
+	font-family: Helvetica, sans-serif;
+	color: #999;
+}
+
+.jumbotron {
+	background-image: url(https://images.unsplash.com/photo-1438298900126-cdba9e7040a6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=db8a573ec6a635f3753ef8098018cc3c) 
+
+}
+
+.h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+.p1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+}
+
+h1 {
+	font-family: 'Permanent Marker', 'cursive';
+}
+
+}
+
